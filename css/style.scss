@@ -1,0 +1,15 @@
+main {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  > h2 {
+    margin: 10px;
+  }
+  > ul {
+    li {
+      text-align: center;
+      padding: 10px;
+    }
+  }
+}
